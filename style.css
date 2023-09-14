@@ -140,6 +140,8 @@ div {
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-sizing: border-box;
+    height: 500px;
     padding: 32px 100px;
 }
 
@@ -176,7 +178,7 @@ div {
     align-items: center;
     padding: 8px;
     /* box-sizing: border-box; */
-    min-width: 150px;
+    width: 150px;
     height: 300px;
 }
 
@@ -187,6 +189,31 @@ div {
     color: #1F2937;
 }
 
+/* The third row */
+.content-third-row {
+    box-sizing: border-box;
+    background-color: #e5e7eb89;
+    height: 400px;
+    padding: 32px 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.content-third-row .quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.content-third-row .quote-person {
+    color: #1F2937;
+    font-weight: 900;
+    align-self: flex-end;
+    font-size: 24px;
+}
 
 /* the footer part */
 .footer {
@@ -197,4 +224,5 @@ div {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 16px;
 }
