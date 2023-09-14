@@ -58,6 +58,7 @@ body {
 
 .header .header-logo {
     font-size: 24px;
+    font-weight: 900;
     color: #F9FAF8;
     margin-left: 80px;
 }
@@ -141,7 +142,7 @@ div {
     flex-direction: column;
     align-items: center;
     box-sizing: border-box;
-    height: 500px;
+    /* height: 500px; */
     padding: 32px 100px;
 }
 
@@ -193,8 +194,8 @@ div {
 .content-third-row {
     box-sizing: border-box;
     background-color: #e5e7eb89;
-    height: 400px;
-    padding: 32px 400px;
+    /* height: 400px; */
+    padding: 32px 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -204,7 +205,8 @@ div {
 
 .content-third-row .quote-text {
     font-size: 36px;
-    font-weight: lighter;
+    color: #1f2937dc;
+    font-weight: 100;
     font-style: italic;
 }
 
@@ -251,8 +253,9 @@ div {
 
 .content-fourth-row .container .sign-up-button button{
     font-size: 20px;
+    font-weight: 800;
     border: 2px solid white;
-    padding: 8px 32px;
+    padding: 4px 32px;
     border-radius: 8px;
 }
 
