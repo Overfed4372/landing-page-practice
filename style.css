@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
+/* Default properties for tags */
 body {
+    min-height: 100vh;
     font-family: Roboto, sans-serif;
     font-size: 24px;
     margin: 0;
@@ -21,6 +23,19 @@ a {
     text-decoration: none;
 }
 
+button {
+    all:unset;
+}
+/* end */
+
+/* making the whole document flexible */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/* header part  */
 .header {
     background-color: #1F2937;
     color: whitesmoke;
@@ -31,10 +46,13 @@ a {
 
 }
 
+.header .header-links {
+    margin-right: 80px;
+}
+
 .header .header-links ul {
     display: flex;
     justify-content: space-between;
-    margin-right: 80px;
     gap: 16px;
 }
 
@@ -48,4 +66,85 @@ a {
     font-size: 16px;
     color: whitesmoke;
 }
+/* end */
 
+/* first row content part */
+.content-first-row  {
+    background-color: #1F2937;
+    padding: 16px;
+    align-self: flex-start;
+    display: flex;
+}
+
+.content-first-row div {
+    color: #F9FAF8;
+    flex: 1 1 0;
+
+}
+
+.content-first-row .text-and-button {
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-first-row 
+.text-and-button 
+.hero-title {
+    font-size: 48px;
+    font-weight: 900;
+    padding: 16px 16px 4px 0px;
+}
+
+.content-first-row 
+.text-and-button 
+.hero-text {
+    font-size: 16px;
+    padding: 4px 16px 4px 0px;
+}
+
+.content-first-row 
+.text-and-button 
+.sign-up-button {
+    padding: 4px 16px 16px 0px;
+}
+
+.content-first-row 
+.text-and-button 
+.sign-up-button
+button {
+    background-color: #3882f6;
+    font-size: 16px;
+    text-align: center;
+    padding: 4px 16px 4px 16px;
+    border-radius: 8px;
+}
+
+.content-first-row 
+.content-first-row-image {
+    background-color: darkolivegreen;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-first-row 
+.content-first-row-image
+div {
+    text-align: center;
+}
+/* end */
+
+
+
+/* the footer part */
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    margin-top: auto;
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
