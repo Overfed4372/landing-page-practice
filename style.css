@@ -71,7 +71,7 @@ body {
 /* first row content part */
 .content-first-row  {
     background-color: #1F2937;
-    padding: 16px;
+    padding: 16px 80px 80px;
     align-self: flex-start;
     display: flex;
 }
@@ -83,7 +83,6 @@ body {
 }
 
 .content-first-row .text-and-button {
-    margin-left: 80px;
     display: flex;
     flex-direction: column;
 }
