@@ -215,6 +215,48 @@ div {
     font-size: 24px;
 }
 
+/* Fourth row */
+.content-fourth-row {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-fourth-row .container {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    padding: 32px 96px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 900px;
+}
+
+.content-fourth-row .container .content{
+    padding: 8px;
+}
+
+.content-fourth-row .container .content .title {
+    font-weight: 800;
+}
+
+.content-fourth-row .container .content .text {
+    font-size: 16px;
+}
+
+.content-fourth-row .container .sign-up-button {
+    padding: 8px;
+}
+
+.content-fourth-row .container .sign-up-button button{
+    font-size: 20px;
+    border: 2px solid white;
+    padding: 8px 32px;
+    border-radius: 8px;
+}
+
+
 /* the footer part */
 .footer {
     background-color: #1F2937;
